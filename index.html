@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		}
+		
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; overflow-x: scroll; } 
+
+.datagrid {font: normal 12px/150%; background: #fff; overflow: hidden; border: 1px solid #8C8C8C; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+
+
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');background-color:#8C8C8C; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #A3A3A3; } 
+
+.datagrid table thead th:first-child { border: none; }
+
+.datagrid table tbody td { color: #7D7D7D; border-left: 1px solid #DBDBDB;font-size: 12px;font-weight: normal; }
+
+.datagrid table tbody .alt td { background: #EBEBEB; color: #7D7D7D; }
+
+.datagrid table tbody td:first-child { border-left: none; }
+
+.datagrid table tbody tr:last-child td { border-bottom: none; }		
+
+.team{
+	width: 45px;
+}
+td, th{
+	text-align: center;
+	font-weight: 200 !important;
+}
+.head{
+	width: 35px;
+	padding-top: 3px;
+}
+
+.wrong{
+	background-color: #FF4136;
+}
+.right{
+	background-color: #2ECC40;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+h2{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 200;
+}
+
+		</style>
+</head>
+<body>
+	<h2>The ESPN "Experts" picks</h2>
+	<div class="datagrid"><table>
+<table class="table table-bordered table-hover table-condensed">
+<thead>
+<tr>
+<th>ESPN "EXPERT"</th>
+<th>&#10004;</th>
+<th>X</th>
+<th>EQF</th>
+<th>EQF</th>
+<th>EQF</th>
+<th>EQF</th>
+<th>WQF</th>
+<th>WQF</th>
+<th>WQF</th>
+<th>WQF</th>
+<th>ESF</th>
+<th>ESF</th>
+<th>WSF</th>
+<th>WSF</th>
+<th>EF</th>
+<th>WF</th>
+</tr></thead>
+<tbody><tr>
+<td><img class="head" src="images/headshots/buccigross.jpg"><br>Buccigross</td>
+<td>6</td>
+<td>6</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="right"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="wrong"><img src="images/sharks.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/burnside.jpg"><br>Burnside</td>
+<td>7</td>
+<td>5</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="right"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/ducks.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/cohn.jpg"><br>Cohn</td>
+<td>9</td>
+<td>3</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="right"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/senators.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/custance.jpg"><br>Custance</td>
+<td>5</td>
+<td>7</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="right"><img src="images/blues.gif" class="team"></td>
+<td class="wrong"><img src="images/flames.gif" class="team"></td>
+<td class="wrong"><img src="images/sharks.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/grant.jpg"><br>Grant</td>
+<td>6</td>
+<td>6</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="wrong"><img src="images/sharks.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/kavanagh.jpg"><br>Kavanagh</td>
+<td>4</td>
+<td>8</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="wrong"><img src="images/flames.gif" class="team"></td>
+<td class="wrong"><img src="images/sharks.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/lebrun.jpg"><br>LeBrun</td>
+<td>8</td>
+<td>4</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="right"><img src="images/blues.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/levy.jpg"><br>Levy</td>
+<td>3</td>
+<td>9</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/bluejackets.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="right"><img src="images/blues.gif" class="team"></td>
+<td class="wrong"><img src="images/flames.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/oilers.gif" class="team"></td>
+<td class="wrong"><img src="images/blues.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/mcdonald.jpg"><br>McDonald</td>
+<td>4</td>
+<td>8</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/bluejackets.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="wrong"><img src="images/flames.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/oilers.gif" class="team"></td>
+<td class="right"><img src="images/predators.gif" class="team"></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/mchenry.jpg"><br>McHenry</td>
+<td>4</td>
+<td>4</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/melrose.jpg"><br>Melrose</td>
+<td>6</td>
+<td>6</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="wrong"><img src="images/bruins.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="wrong"><img src="images/wild.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="right"><img src="images/penguins.gif" class="team"></td>
+<td class="wrong"><img src="images/rangers.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="wrong"><img src="images/blues.gif" class="team"></td>
+<td><img src="images/penguins.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+<tr>
+<td><img class="head" src="images/headshots/virk.jpg"><br>Virk</td>
+<td>6</td>
+<td>6</td>
+<td class="right"><img src="images/capitals.gif" class="team"></td>
+<td class="wrong"><img src="images/bluejackets.gif" class="team"></td>
+<td class="wrong"><img src="images/canadiens.gif" class="team"></td>
+<td class="right"><img src="images/senators.gif" class="team"></td>
+<td class="wrong"><img src="images/blackhawks.gif" class="team"></td>
+<td class="right"><img src="images/blues.gif" class="team"></td>
+<td class="right"><img src="images/ducks.gif" class="team"></td>
+<td class="right"><img src="images/oilers.gif" class="team"></td>
+<td class="wrong"><img src="images/capitals.gif" class="team"></td>
+<td class="right"><img src="images/senators.gif" class="team"></td>
+<td class="wrong"><img src="images/oilers.gif" class="team"></td>
+<td class="wrong"><img src="images/blues.gif" class="team"></td>
+<td><img src="images/senators.gif" class="team"></td>
+<td><img src="images/predators.gif" class="team"></td>
+</tr>
+</tbody></table>
+</div>
+</body>
+</html>
